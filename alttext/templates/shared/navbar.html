@@ -1,0 +1,32 @@
+{% load static %}
+<div class="site-wrap">
+    <header class="site-navbar" role="banner">
+      <div class="site-navbar-top">
+        <div class="container">
+          <div class="row align-items-center">
+
+            <div class="col-6 col-md-4 order-2 order-md-1">
+              <!--logo 가운데 정렬용-->
+            </div>
+
+            <div class="col-12 mb-3 mb-md-0 col-md-4 order-1 order-md-2 text-center">
+                <a href="{% url 'posts:shop' %}"><img src="{% static 'images/sitelogo.png' %}" width="320px" height="180px"></a>
+            </div>
+
+          </div>
+        </div>
+      </div> 
+      <nav class="site-navigation text-center text-md-center" role="navigation">
+        <div class="container">
+          <ul class="site-menu js-clone-nav">
+            <li>
+              <a href="{% url 'about' %}">About</a>
+            </li>
+            <li>
+              <a href="{% url 'posts:shop' %}">Shop</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+</div>
