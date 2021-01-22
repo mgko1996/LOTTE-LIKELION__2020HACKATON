@@ -19,6 +19,6 @@ Lotte Visually Access
 # 개발
 1. Crawling : [강동희](https://github.com/dhk010111), [송요민](https://github.com/alsthd27)
 
-1. Naver ocr api : [고명기](https://github.com/godgi), [김태형](https://github.com/pletain)
+1. Naver ocr api : [고명기](https://github.com/mgko1996), [김태형](https://github.com/pletain)
 
 1. design, code review : [임도연](https://github.com/dddooo9)
